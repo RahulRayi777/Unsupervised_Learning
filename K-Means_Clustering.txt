@@ -1,0 +1,59 @@
+Unsupervised Learning:
+
+1)K-Means clustering
+
+Process of dividing the datasets into groups
+When we don't have labelled data(target)
+Grouping is done based on the Similarity Search
+
+
+1)Amazon Recommendation
+2)Netflix Reccommendation
+
+
+Three types of clustering :
+
+1)Exclusive Clustering
+2)Overlapping Clustering
+3)Hierarchal Clustering
+
+Exclusive Clustering: Each data Object exist in one cluster only.
+EX: K-Means Clustering
+This is nothing but "Hard clustering" 
+the cluster membership degree is either  1 or 0.
+
+Overlapping Clustering
+Ex:Fuzzy/C-Means Clustering
+ Each data Object belongs to  every  cluster only
+This is nothing but "Soft clustering" 
+
+Hierarchal clustering:
+Hierarchical clustering is an unsupervised machine learning algorithm used to group data points into clusters based on their similarity. It creates a hierarchy of clusters, which can be visualized in a tree-like diagram called a dendrogram
+
+
+
+K means Clustering:
+
+steps:
+1)Firstly, select the no.of clusters for example 3 
+2)then select 3 randomly selected datapoint
+3)Using Eucleadian distance select the least distance 
+4)then after selecting the data points lets say 0.1 and 0.4 then mean the datapoints.
+5)then mean of the data points is nothing but the cluster point
+
+Algorithm is sensitive to initial clusters
+
+this is only single run 
+based on the different runs(iterations) based on the variance of the individual cluster the iteration happens
+
+AND selecting k- value:
+
+for selecting k value there is elbow method where we plot variance and k value based on the best values will take k value.
+
+
+
+
+
+
+
+
