@@ -1,0 +1,50 @@
+Principal Component Analysis(unsupervised there is no target variable )
+
+1)feature selection --> sunset of original features
+
+2)feature Extraction---->PCA--->entire data transformation there is no subsets. There is Some reduction in the dimensionality.
+
+Size--->No of data points
+Dimensionality--->No of Features
+
+
+PCA takes all the features and only captures the relevant data needed for the model building.
+
+Cartesian coordinate representation
+
+maximum variance gives us Maximizing Information because as some point variance is high some points are very near. That's why this.
+
+Variance
+
+Covariance
+
+Covariance Matrix:::
+
+1)a_transope=a
+2)capture eigen values and eigen vectors
+3)creating pais eigen values, eigen vectors
+4)then we will take top k dimensions
+5)plot step plot based on the information from 0 to 100%
+6)based on that we will train and testing based on the propblem
+ 
+
+
+Visualisation:::
+
+steps:
+1)check dimensons
+2)convert lets say 64 d to 3 dimension
+3)then Map 3d into 2D(used for visualisation also)
+
+
+
+
+Drawbacks:::
+
+---> less interpretable we cant say by seeing after transformation
+
+---->there will be some information 
+
+----->unsupervised there is no target variable 
+
+
